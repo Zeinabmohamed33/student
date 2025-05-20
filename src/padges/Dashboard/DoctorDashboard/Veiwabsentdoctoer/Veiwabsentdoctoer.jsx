@@ -1,6 +1,4 @@
 import React from 'react'
-import icon1 from '../../../../assets/Chevron right.png'
-import back from '../../../../assets/Frame 129.png'
 import { Link, useNavigate } from 'react-router-dom'
 import PropTypes from 'prop-types';
 import Tabs from '@mui/material/Tabs';

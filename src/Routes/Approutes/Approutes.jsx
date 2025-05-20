@@ -43,7 +43,40 @@ import Lecturesfilterdoctoer from '../../padges/Dashboard/DoctorDashboard/Lectur
 import Finalsectiondoctoer from '../../padges/Dashboard/DoctorDashboard/Finalsectiondoctoer/Finalsectiondoctoer'
 import Finalleturesdoctoer from '../../padges/Dashboard/DoctorDashboard/Finalleturesdoctoer/Finalleturesdoctoer'
 import Excessiveabsencestudent from '../../padges/Dashboard/TeacherDashboard/Excessiveabsencestudent/Excessiveabsencestudent'
+import Profileadmin from '../../padges/Dashboard/AdminDashboard/Profileadmin/Profileadmin'
+import Changepassowredadmin from '../../padges/Dashboard/AdminDashboard/Changepassowredadmin/Changepassowredadmin'
+import Inboxadmin from '../../padges/Dashboard/AdminDashboard/Inboxadmin/Inboxadmin'
+import Actionmassageadmin from '../../padges/Dashboard/AdminDashboard/Actionmassageadmin/Actionmassageadmin'
+import Takeactionadmin from '../../padges/Dashboard/AdminDashboard/Takeactionadmin/Takeactionadmin'
+import Adddocteradmin from '../../padges/Dashboard/AdminDashboard/Adddocteradmin/Adddocteradmin'
+import Newdocteradmin from '../../padges/Dashboard/AdminDashboard/Newdocteradmin/Newdocteradmin'
+import Veiwdocteradmin from '../../padges/Dashboard/AdminDashboard/Veiwdocteradmin/Veiwdocteradmin'
+import Changpassworeddocteradmin from '../../padges/Dashboard/AdminDashboard/Changpassworeddocteradmin/Changpassworeddocteradmin'
+import Newteacheradmin from '../../padges/Dashboard/AdminDashboard/Newteacheradmin/Newteacheradmin'
+import Newstudentadmin from '../../padges/Dashboard/AdminDashboard/Newstudentadmin/Newstudentadmin'
+import Allteachersadmin from '../../padges/Dashboard/AdminDashboard/Allteachersadmin/Allteachersadmin'
+import Veiwteacheradmin from '../../padges/Dashboard/AdminDashboard/Veiwteacheradmin/Veiwteacheradmin'
+import Chagepassteachers from '../../padges/Dashboard/AdminDashboard/Chagepassteachers/Chagepassteachers'
+import Allstudentadminn from '../../padges/Dashboard/AdminDashboard/Allstudentadminn/Allstudentadminn'
+import Veiwstudentadmin from '../../padges/Dashboard/AdminDashboard/Veiwstudentadmin/Veiwstudentadmin'
+import Editestudentadminn from '../../padges/Dashboard/AdminDashboard/Editestudentadminn/Editestudentadminn'
+import Newaddcoursesadmin from '../../padges/Dashboard/AdminDashboard/Newaddcoursesadmin/Newaddcoursesadmin'
+import Allcourdessadmin from '../../padges/Dashboard/AdminDashboard/Allcourdessadmin/Allcourdessadmin'
+import Allcourseshtml from '../../padges/Dashboard/AdminDashboard/Allcourseshtml/Allcourseshtml'
+import Htmlstudentadmin from '../../padges/Dashboard/AdminDashboard/Htmlstudentadmin/Htmlstudentadmin'
+import Absentstudentadmin from '../../padges/Dashboard/AdminDashboard/Absentstudentadmin/Absentstudentadmin'
+import Letureattentdoctoer from '../../padges/Dashboard/DoctorDashboard/Letureattentdoctoer/Letureattentdoctoer'
+import Letureattentdoctoeradmin from '../../padges/Dashboard/AdminDashboard/Letureattentdoctoeradmin/Letureattentdoctoeradmin'
+import Sectionattenddocter from '../../padges/Dashboard/DoctorDashboard/Sectionattenddocter/Sectionattenddocter'
+import Sectionattenddocteradmin from '../../padges/Dashboard/AdminDashboard/Sectionattenddocteradmin/Sectionattenddocteradmin'
+import Fillteradmin from '../../padges/Dashboard/AdminDashboard/Fillteradmin/Fillteradmin'
+import Filltersectionadmin from '../../padges/Dashboard/AdminDashboard/Filltersectionadmin/Filltersectionadmin'
+import Fillterletureadmin from '../../padges/Dashboard/AdminDashboard/Fillterletureadmin/Fillterletureadmin'
+import Sectionreportadmin from '../../padges/Dashboard/AdminDashboard/Sectionreportadmin/Sectionreportadmin'
+import Leturereportadmin from '../../padges/Dashboard/AdminDashboard/Leturereportadmin/Leturereportadmin'
+import Editecoursesadmin from '../../padges/Dashboard/AdminDashboard/Editecoursesadmin/Editecoursesadmin'
 export default function Approutes() {
+  
   return (
     <div>
       <Routes>
@@ -56,7 +89,42 @@ export default function Approutes() {
 
         <Route path="/admin-dashboard" element={<AdminLayout/>}>
         <Route index element={<AdminDashboard />}/>
+        <Route  path="/admin-dashboard/profiledoctoer" element={<Profileadmin/>}/>
+        <Route  path="/admin-dashboard/profiledoctoer/changepassowredadmin" element={<Changepassowredadmin/>}/>
+        <Route  path="/admin-dashboard/inboxadmin" element={<Inboxadmin/>}/>
+        <Route  path="/admin-dashboard/inboxadmin/actionmassageadmin" element={<Actionmassageadmin/>}/>
+        <Route  path="/admin-dashboard/inboxadmin/takeactionadmin" element={<Takeactionadmin/>}/>
+        <Route  path="/admin-dashboard/adddocteradmin" element={<Adddocteradmin/>}/>
+        <Route  path="/admin-dashboard/newdocteradmin" element={<Newdocteradmin/>}/>
+        <Route  path="veiwdocteradmin/:id" element={<Veiwdocteradmin/>}/>
+        <Route  path="/admin-dashboard/newdocteradmin/changpassworeddocteradmin" element={<Changpassworeddocteradmin/>}/>
+        <Route  path="/admin-dashboard/newteacheradmin" element={<Newteacheradmin/>}/>
+        <Route  path="/admin-dashboard/newstudentadmin" element={<Newstudentadmin/>}/>
+        <Route  path="/admin-dashboard/allteachersadmin" element={<Allteachersadmin/>}/>
+        <Route  path="Veiwteacheradmin/:id" element={<Veiwteacheradmin/>}/>
+        <Route  path="/admin-dashboard/newteacheradmin/chagepassteachers" element={<Chagepassteachers/>}/>
+        <Route  path="/admin-dashboard/allstudentadminn" element={<Allstudentadminn/>}/>
+        <Route  path="veiwstudentadmin/:id" element={<Veiwstudentadmin/>}/>
+        <Route  path="editestudentadminn/:id" element={<Editestudentadminn/>}/>
+        <Route  path="/admin-dashboard/newaddcoursesadmin" element={<Newaddcoursesadmin/>}/>
+        <Route  path="/admin-dashboard/allcourdessadmin" element={<Allcourdessadmin/>}/>
+         <Route  path="/admin-dashboard/allcourdessadmin/allcourseshtml" element={<Allcourseshtml/>}/>
+
+        <Route  path="/admin-dashboard/allcourdessadmin/htmlstudentadmin" element={<Htmlstudentadmin/>}/>
+        <Route  path="/admin-dashboard/allcourdessadmin/absentstudentadmin" element={<Absentstudentadmin/>}/>
+         <Route  path="/admin-dashboard/allcourdessadmin/absentstudentadmin/letureattentdoctoeradmin" element={<Letureattentdoctoeradmin/>}/>
+          <Route  path="/admin-dashboard/allcourdessadmin/absentstudentadmin/sectionattenddocteradmin" element={<Sectionattenddocteradmin/>}/>
+           <Route  path="/admin-dashboard/allcourdessadmin/fillteradmin" element={<Fillteradmin/>}/>
+           <Route  path="/admin-dashboard/allcourdessadmin/fillteradmin/filltersectionadmin" element={<Filltersectionadmin/>}/>
+           <Route  path="/admin-dashboard/allcourdessadmin/fillteradmin/fillterletureadmin" element={<Fillterletureadmin/>}/>
+           <Route  path="/admin-dashboard/allcourdessadmin/sectionreportadmin" element={<Sectionreportadmin/>}/>
+           <Route  path="/admin-dashboard/allcourdessadmin/leturereportadmin" element={<Leturereportadmin/>}/>
+            <Route  path="/admin-dashboard/allcourdessadmin/editecoursesadmin" element={<Editecoursesadmin/>}/>
+
         </Route>
+        
+
+
 
 
 

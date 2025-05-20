@@ -42,7 +42,7 @@ export default function Scanqrcodestudent() {
     
   return (
     <div>
-      <div className='flex gap-6 md:m-10 max-md:m-3 items-center'>
+      <div className='flex items-center gap-6 md:m-10 max-md:m-3'>
                        <button onClick={() => navigate("/student-dashboard/coursesstudent")} className='flex gap-2 items-center  text-[#161B39]'>
                        <i className="fa-solid fa-arrow-left-long" />
                        <h1>BACK</h1>
